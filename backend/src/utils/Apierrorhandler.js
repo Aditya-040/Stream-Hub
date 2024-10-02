@@ -8,7 +8,7 @@ class apierr extends Error{
         super(message);
         this.statusCode=statusCode;
         this.errors=errors;
-        this.statck=statck;
+        this.stack=stack;
         this.data=null;
         this.success=false;
         if(stack){
