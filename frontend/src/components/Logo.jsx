@@ -10,7 +10,7 @@ function Logo({ size = "30" }) {
                     size={size}
                     color="#A855F7"
                 />
-                <span className="font-bold text-white">STREAMIFY</span>
+                <span className="font-bold text-white">StreamHub</span>
             </Link>
         </>
     );

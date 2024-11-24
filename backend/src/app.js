@@ -7,7 +7,7 @@ const app = new express();
 
 app.use(
     cors({
-        origin: process.env.CORS_ORIGIN,
+        origin: "http://127.0.0.1:5173" || process.env.CORS_ORIGIN,
         credentials: true,
     })
 );
