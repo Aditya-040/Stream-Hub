@@ -52,6 +52,8 @@ A robust and modern full-stack application designed to handle backend and fronte
 - **Cloudinary**: Create an account for media uploads.
   
 ### Project Structure
+
+```bash
 .
 ├── backend/
 │   ├── src/
@@ -70,3 +72,4 @@ A robust and modern full-stack application designed to handle backend and fronte
 │   ├── tailwind.config.js  # Tailwind CSS configuration
 │   ├── package.json        # Frontend dependencies
 
+```
